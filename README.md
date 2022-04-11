@@ -29,4 +29,5 @@ Some ideas were taken and/or modified from specific GEC papers:
 - Uppercase the first letter of a word
 
 
-## General approach
+## Approach
+![GeneralApp.](Images/Flowchart)
