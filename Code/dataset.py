@@ -12,7 +12,7 @@ import os
 import csv
 
 ########################## OPEN FILE FOR WRITING
-f = open(os.path.abspath("./Dataset1302070.tsv"), 'w', encoding='utf-8', newline='\n')
+f = open(os.path.abspath("./Dataset.tsv"), 'w', encoding='utf-8', newline='\n')
 writer = csv.writer(f)
 
 
