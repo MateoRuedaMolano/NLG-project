@@ -30,4 +30,6 @@ Some ideas were taken and/or modified from specific GEC papers:
 
 
 ## Approach
+
+For every sentence, each word is modified following this flow chart:
 ![GeneralApp.](https://github.com/MateoRuedaMolano/NLG-project/blob/main/Images/Flowchart.jpg)
