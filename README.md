@@ -33,3 +33,20 @@ Some ideas were taken and/or modified from specific GEC papers:
 
 For every sentence, each word with a probability of 0.3 is modified following this flow chart:
 ![GeneralApp.](https://github.com/MateoRuedaMolano/NLG-project/blob/main/Images/FlowchartC.jpg)
+
+### Word addition: 
+Using STOPWORDS from NLTK.corpus which is a list of very common words such as prepositions, articles, pronouns, among others.
+
+### Word substitution:
+The selected word to be modified follows the following procedure:
+
+![GeneralApp.](https://github.com/MateoRuedaMolano/NLG-project/blob/main/Images/Untitled.jpg)
+
+### Word punctuation
+If the character to be modified is a punctuation mark, this is replaced by another one with probability of 0.25 or deleted with probability of 0.75.
+
+# Running the code:
+
+Please go to Code folder and run dataset.py to create the dataset with the chosen parameters. Run the jupyter notebook for training and to get the BEA predictions.
+
+
