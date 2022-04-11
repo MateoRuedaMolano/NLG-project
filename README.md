@@ -30,4 +30,4 @@ Some ideas were taken and/or modified from specific GEC papers:
 
 
 ## Approach
-![GeneralApp.](Images/Flowchart)
+![GeneralApp.](https://github.com/MateoRuedaMolano/NLG-project/blob/main/Images/Flowchart.jpg)
