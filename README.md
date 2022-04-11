@@ -28,6 +28,9 @@ Some ideas were taken and/or modified from specific GEC papers:
 - Lowercase a word
 - Uppercase the first letter of a word
 
+## Data
+Seed Corpus: Wikipedia, scraped on 1st of May 2020.
+Data paragraphs were cleaned and separated into sentences.
 
 ## Approach
 
@@ -47,6 +50,6 @@ If the character to be modified is a punctuation mark, this is replaced by anoth
 
 # Running the code:
 
-Please go to Code folder and run dataset.py to create the dataset with the chosen parameters. Run the jupyter notebook for training and to get the BEA predictions.
+Please go to Code folder and run dataset.py to create the dataset with the chosen parameters. Run the jupyter notebook for training, you will also get the BEA predictions.
 
 
