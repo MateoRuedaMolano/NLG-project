@@ -51,6 +51,7 @@ If the character to be modified is a punctuation mark, this is replaced by anoth
 # Running the code:
 To create the dataset with the chosen parameters, run:
 ```
+cd Code
 python dataset.py
 ```
 Run the jupyter notebook for training, you will also get the BEA prediction results. Keep in mind to change the path for the training dataset.
