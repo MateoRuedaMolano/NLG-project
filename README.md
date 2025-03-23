@@ -13,23 +13,23 @@ Some ideas were taken and/or modified from specific GEC papers:
 
 ### **Neural GEC Systems with unsupervised pre-training on synthetic data by Grundkiewicz et al.**
 
--Word level operations: 
-- Substitution using spellcheckers 
-- Deletion
-- Insertion with random words
-- Swapping with the next word (word(i+1))
+* Word level operations: 
+    * Substitution using spellcheckers 
+    * Deletion
+    * Insertion with random words
+    * Swapping with the next word (word(i+1))
     
 
--Character level operations: Similar to word operations
+* Character level operations: Similar to word operations
 
 ### **A simple recipe for Multilingual Error Correction by Rothe et al.**
 
--Word level operations: 
-- Lowercase a word
-- Uppercase the first letter of a word
+* Word level operations: 
+    * Lowercase a word    
+    * Uppercase the first letter of a word
 
 ## Data
-Seed Corpus: Wikipedia, scraped on 1st of May 2020.
+**Seed Corpus:** Wikipedia, scraped on 1st of May 2020.
 Data paragraphs were cleaned and separated into sentences.
 
 ## Approach
@@ -49,7 +49,10 @@ The selected word to be modified follows the following procedure:
 If the character to be modified is a punctuation mark, this is replaced by another one with probability of 0.25 or deleted with probability of 0.75.
 
 # Running the code:
-
-Please go to Code folder and run dataset.py to create the dataset with the chosen parameters. Run the jupyter notebook for training, you will also get the BEA predictions.
+To create the dataset with the chosen parameters, run:
+```
+python dataset.py
+```
+Run the jupyter notebook for training, you will also get the BEA prediction results. Keep in mind to change the path for the training dataset.
 
 
